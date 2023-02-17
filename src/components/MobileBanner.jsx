@@ -9,13 +9,6 @@ import logoMoon from "@/assets/logoMoon.jpg";
 const MobileBanner = () => {
   const links = [
     {
-      id: 4,
-      link: "https://eliana-portafolio.vercel.app/",
-      src: logoEliana,
-      brand:
-        "rounded-full object-cover w-20 h-20 md:w-40 md:h-40 shadow-thPrimary hover:shadow-thPrimary duration-300 cursor-pointer hover:shadow-xl shadow-md",
-    },
-    {
       id: 6,
       link: "https://eliana-vapeshop.vercel.app/",
       src: logoVapeshop,
@@ -35,6 +28,13 @@ const MobileBanner = () => {
       src: logoMoon,
       brand:
         "rounded-full object-cover w-20 h-20 md:w-40 md:h-40 shadow-thPrimary hover:shadow-thPrimary  duration-300 cursor-pointer hover:shadow-xl shadow-md",
+    },
+    {
+      id: 4,
+      link: "https://eliana-portafolio.vercel.app/",
+      src: logoEliana,
+      brand:
+        "rounded-full object-cover w-20 h-20 md:w-40 md:h-40 shadow-thPrimary hover:shadow-thPrimary duration-300 cursor-pointer hover:shadow-xl shadow-md",
     },
   ];
   return (

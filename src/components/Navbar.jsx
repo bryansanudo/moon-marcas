@@ -14,7 +14,7 @@ const Navbar = ({ isMenuShown, setIsMenuShown }) => {
   const links = [
     {
       id: 10,
-      link: "https://eliana-vapeshop.vercel.app/",
+      link: "https://moon-portafolio.vercel.app/",
       src: logoMoon,
       brand:
         "rounded-full object-cover w-20 h-20 md:w-40 md:h-40 shadow-thPrimary hover:shadow-thPrimary duration-300 cursor-pointer hover:shadow-xl shadow-md",

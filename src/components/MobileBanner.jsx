@@ -1,9 +1,7 @@
 import React from "react";
-import logoSara from "@/assets/logoSara.jpg";
+
 import logoMdwx from "@/assets/logoMdwx.jpg";
-import logoJmarioCouture from "@/assets/logoJmarioCouture.jpg";
-import logoMagicripped from "@/assets/logoMagicripped.jpg";
-import logoVoufit from "@/assets/logoVoufit.jpg";
+
 import logoEliana from "@/assets/logoEliana1.jpg";
 import logoVapeshop from "@/assets/logoVapeshop.jpg";
 import logoMoon from "@/assets/logoMoon.jpg";
@@ -11,7 +9,7 @@ const MobileBanner = () => {
   const links = [
     {
       id: 10,
-      link: "https://eliana-vapeshop.vercel.app/",
+      link: "https://moon-portafolio.vercel.app/",
       src: logoMoon,
       brand:
         "rounded-full object-cover w-20 h-20 md:w-40 md:h-40 shadow-thPrimary hover:shadow-thPrimary duration-300 cursor-pointer hover:shadow-xl shadow-md",

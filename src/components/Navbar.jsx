@@ -2,6 +2,7 @@ import React from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 
 import logoMdwx from "@/assets/logoMdwx.jpg";
+import logoJmario from "@/assets/logoJmarioCouture.jpg";
 
 import logoEliana from "@/assets/logoEliana1.jpg";
 import logoVapeshop from "@/assets/logoVapeshop.jpg";
@@ -10,9 +11,9 @@ import logoMoon from "@/assets/logoMoon.jpg";
 const Navbar = ({ isMenuShown, setIsMenuShown }) => {
   const links = [
     {
-      id: 10,
-      link: "https://moon-portafolio.vercel.app/",
-      src: logoMoon,
+      id: 4,
+      link: "https://eliana-portafolio.vercel.app/",
+      src: logoEliana,
       brand:
         "rounded-full object-cover w-20 h-20 md:w-40 md:h-40 shadow-thPrimary hover:shadow-thPrimary duration-300 cursor-pointer hover:shadow-xl shadow-md",
     },
@@ -25,17 +26,17 @@ const Navbar = ({ isMenuShown, setIsMenuShown }) => {
     },
     {
       id: 2,
-      link: "https://eliana-maxwax.vercel.app/",
-      src: logoMdwx,
+      link: "https://eliana-jmario.vercel.app/",
+      src: logoJmario,
       brand:
-        "rounded-full object-cover w-20 h-20 md:w-40 md:h-40 shadow-[#29fd04] hover:shadow-[#29fd04]   duration-300 cursor-pointer hover:shadow-xl shadow-md",
+        "rounded-full object-cover w-20 h-20 md:w-40 md:h-40 shadow-white hover:shadow-white   duration-300 cursor-pointer hover:shadow-xl shadow-md",
     },
     {
-      id: 4,
-      link: "https://eliana-portafolio.vercel.app/",
-      src: logoEliana,
+      id: 8,
+      link: "https://moon-portafolio.vercel.app/",
+      src: logoMoon,
       brand:
-        "rounded-full object-cover w-20 h-20 md:w-40 md:h-40 shadow-thPrimary hover:shadow-thPrimary duration-300 cursor-pointer hover:shadow-xl shadow-md",
+        "rounded-full object-cover w-20 h-20 md:w-40 md:h-40 shadow-thPrimary hover:shadow-thPrimary  duration-300 cursor-pointer hover:shadow-xl shadow-md",
     },
   ];
 
